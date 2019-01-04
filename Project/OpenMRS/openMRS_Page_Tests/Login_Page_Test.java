@@ -27,7 +27,7 @@ public class Login_Page_Test extends BaseClass{
         
         Login_Page_Action loginPA = new Login_Page_Action(driver);
         Home_Page_Action homePA = loginPA.succesfulLogin(PropertyReader.getValue("ui.application.incorrectusername"),PropertyReader.getValue("ui.application.incorrectpassword"));
-        Assert.assertEquals("Home", homePA.verifyTitle());
+        Assert.assertEquals("Home ", homePA.verifyTitle());
          
      }
 }
