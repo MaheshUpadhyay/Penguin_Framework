@@ -11,7 +11,7 @@ import openMRS_Page_Actions.Login_Page_Action;
 
 
 public class Login_Page_Test extends BaseClass{
- 
+    //My Test Case 1
     @Test (priority = 0, description="valid Login Scenario with correct username and password.")
     public void succesfulLogin() throws InterruptedException {
             
